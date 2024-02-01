@@ -51,14 +51,15 @@ Table Of Contents
 * Our model is a line
 * Loss: difference between the real value and a the predictid value `y-y'`
 * Linear relationship: y = mx + b
- * m: weight
- * b: bias
+  * m: weight
+  * b: bias
 * In machine learning: y' = w1x1 + b
- * b: bias
- * y': predicted label
- * w1: weight of feature instance x1
- * If you have more featuers: y' = w1x1 + w2x2 + ... +  wNxN + b
-* L2 Loss
- * How good our model is
- * SUM( POW2( y1 - prediction(x1) )
- *   
+  * b: bias
+  * y': predicted label
+  * w1: weight of feature instance x1
+  * If you have more featuers: y' = w1x1 + w2x2 + ... +  wNxN + b
+
+L2 Loss
+* How good our model is
+* SUM( POW2( y1 - prediction(x1) )
+
