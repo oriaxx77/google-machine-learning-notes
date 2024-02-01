@@ -5,6 +5,7 @@ Table Of Contents
 1. [Introduction](#introduction)
 2. [Framing](#framing)
 3. [Linear Regression](#linear-regression)
+4. [Reducing Loss](#reducing-loss)
 
 
 
@@ -44,6 +45,14 @@ Table Of Contents
 * **Classification**
   * The model predicts discrete values      
 
+
+Supervised learning
+* We train the model with labeled data
+* Classification:
+  * Map the test data into categories  
+* Regression:
+  * Map the test data to values  
+
 <a name="linear-regression"></a>
 # 3. Linear Regression
 * f(x) = y
@@ -62,4 +71,19 @@ Table Of Contents
 L2 Loss
 * How good our model is
 * SUM( POW2( y1 - prediction(x1) )
+
+Loss
+* Loss is a number indicating how bad the model's prediction was on a single example.
+* Perfect model = 0 loss
+* Square loss 
+  * The square of the difference between the label and the prediction
+* Mean Square Error (MSE)
+  * The average squared loss per example over the whole dataset. 
+  * To calculate MSE, 
+    * sum up all the squared losses for individual examples and 
+    * then divide by the number of examples
+
+
+<a name="reducing-loss"></a>
+# 3. Reducing Loss
 
